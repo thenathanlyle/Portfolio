@@ -3,7 +3,7 @@ import "./Project2.css";
 
 export default function Project2() {
   return (
-    <div className="project1">
+    <div className="project2">
       <img className="jayimage" src={JayWalkin} alt="" />
       <h3>JayWalkin</h3>
       <p>
