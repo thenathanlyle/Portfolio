@@ -11,7 +11,7 @@ export default function Project1() {
         main: "#FFCC00",
       },
       secondary: {
-        main: "#fafafa",
+        main: "#000000",
       },
     },
   });
@@ -38,8 +38,8 @@ export default function Project1() {
           </Button>
           <Button
             theme={theme}
-            color="primary"
-            variant="contained"
+            color="secondary"
+            variant="outlined"
             href="https://github.com/thenathanlyle/MotionGIFs"
             target="_blank"
           >
