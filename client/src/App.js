@@ -1,7 +1,7 @@
-import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Layout from "./layouts/Layout";
 import MainContainer from "./containers/MainContainer";
+import "./App.css";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainContainer />} />
         </Routes>
-      </Layout>{" "}
+      </Layout>
     </div>
   );
 }
