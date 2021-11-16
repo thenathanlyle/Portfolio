@@ -1,3 +1,7 @@
 export default function Project1() {
-  return <h1>project1</h1>;
+  return (
+    <div>
+      <h1>project1</h1>
+    </div>
+  );
 }
