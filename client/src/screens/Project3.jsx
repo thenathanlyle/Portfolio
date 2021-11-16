@@ -4,7 +4,7 @@ import "./Project3.css";
 export default function Project3() {
   return (
     <div className="project3">
-      <img className="test" src={CryptoCradle} alt="" />
+      <img className="cryptoimage" src={CryptoCradle} alt="" />
       <h3>CryptoCradle</h3>
       <p>
         CryptoCradle is a cryptocurrency price chart using coin data from an

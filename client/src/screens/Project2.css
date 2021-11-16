@@ -1,4 +1,4 @@
-.project3 {
+.project2 {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -8,6 +8,6 @@
   width: 100%;
   background-color: #f7f6f2;
 }
-.cryptoimage {
+.jayimage {
   width: 20vw;
 }
