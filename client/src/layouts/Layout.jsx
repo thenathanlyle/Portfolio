@@ -3,7 +3,7 @@ import Header from "../componenets/Header";
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <div className="layout">
       <Header />
       <div className="children">{children}</div>
       <Footer />
