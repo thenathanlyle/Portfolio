@@ -5,7 +5,7 @@ export default function Project3() {
   return (
     <div className="project3">
       <img className="cryptoimage" src={CryptoCradle} alt="" />
-      <h3>CryptoCradle</h3>
+      <h1>CryptoCradle</h1>
       <p>
         CryptoCradle is a cryptocurrency price chart using coin data from an
         external API while allowing a user to search for their favorite

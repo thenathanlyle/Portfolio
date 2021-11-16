@@ -8,6 +8,22 @@
   width: 100%;
   background-color: #fbfbff;
 }
-.motionimage {
+
+.motionImage {
   width: 20vw;
+}
+
+.p1Title {
+  margin: 0px;
+  font-size: 80px;
+}
+
+.p1Body {
+  margin: 0px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+.p1Buttons {
+  padding: 50px;
 }
