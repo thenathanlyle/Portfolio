@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
@@ -16,9 +15,11 @@ export default function Footer() {
 
   return (
     <footer className="footer">
-      <Link
-        to={{ pathname: "https://www.linkedin.com/in/thenathanlyle/" }}
+      <a
+        href="https://www.linkedin.com/in/thenathanlyle/"
+        download
         target="_blank"
+        rel="noreferrer"
       >
         <LinkedInIcon
           className="footer-linkedin"
@@ -26,10 +27,12 @@ export default function Footer() {
           color="primary"
           fontSize="large"
         />
-      </Link>{" "}
-      <Link
-        to={{ pathname: "https://github.com/thenathanlyle" }}
+      </a>
+      <a
+        href="https://github.com/thenathanlyle"
+        download
         target="_blank"
+        rel="noreferrer"
       >
         <GitHubIcon
           className="footer-github"
@@ -37,10 +40,12 @@ export default function Footer() {
           color="primary"
           fontSize="large"
         />
-      </Link>
-      <Link
-        to={{ pathname: "mailto:nathanlyle1996@gmail.com" }}
+      </a>
+      <a
+        href="mailto:nathanlyle1996@gmail.com"
+        download
         target="_blank"
+        rel="noreferrer"
       >
         <EmailIcon
           className="footer-email"
@@ -48,7 +53,7 @@ export default function Footer() {
           color="primary"
           fontSize="large"
         />
-      </Link>
+      </a>
     </footer>
   );
 }
