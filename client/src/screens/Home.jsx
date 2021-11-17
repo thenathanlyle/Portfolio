@@ -19,7 +19,7 @@ export default function Home() {
     <div className="HomePage">
       <h1 className="HomeTitle">Nathan Lyle</h1>
       <div className="circular--portrait">
-        <img className="Homeimage" src={Nathan} alt="" />
+        <img className="HomeImage" src={Nathan} alt="" />
       </div>
       <p className="HomeBody">Full-Stack | Software Developer | Marketing</p>
       <div className="HomeButtons">
