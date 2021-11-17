@@ -7,10 +7,23 @@
   height: 100%;
   width: 100%;
   background-color: #fbfbff;
-  font-family: "Rubik", sans-serif;
-  font-weight: 500;
 }
 
 .jayimage {
   width: 20vw;
+}
+
+.p2Title {
+  margin: 0px;
+  font-size: 80px;
+}
+
+.p2Body {
+  margin: 0px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+.p2Buttons {
+  margin: 50px;
 }

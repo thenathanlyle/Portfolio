@@ -27,7 +27,6 @@ export default function Project1() {
       <div className="p1Buttons">
         <Stack direction="row" spacing={2}>
           <Button
-            className="p1Demo"
             theme={theme}
             color="primary"
             variant="contained"
