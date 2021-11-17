@@ -20,9 +20,10 @@ export default function Project2() {
       <img className="jayimage" src={JayWalkin} alt="" />
       <h1 className="p2Title">JayWalkin</h1>
       <p className="p2Body">
-        CryptoCradle is a cryptocurrency price chart using coin data from an
-        external API while allowing a user to search for their favorite
-        cryptocurrency.
+        JayWalkin is an E-commerce site built to allow users to browse through a
+        collection of shoes. The site was built in a team environment and
+        features full CRUD. JayWalkin offers the functionalities of filtering,
+        searching, and sorting different products.
       </p>
       <div className="p2Buttons">
         <Stack direction="row" spacing={2}>

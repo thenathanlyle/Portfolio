@@ -8,7 +8,7 @@ export default function Project3() {
   const theme = createTheme({
     palette: {
       primary: {
-        main: "#FFCC00",
+        main: "#3687D1",
       },
       secondary: {
         main: "#000000",
@@ -18,11 +18,13 @@ export default function Project3() {
   return (
     <div className="project3">
       <img className="cryptoimage" src={CryptoCradle} alt="" />
-      <h1 className="p3Title">CryptoCradle</h1>
+      <h1 className="p3Title">
+        crypto<span>cradle</span>
+      </h1>
       <p className="p3Body">
         CryptoCradle is a cryptocurrency price chart using coin data from an
-        external API while allowing a user to search for their favorite
-        cryptocurrency.
+        external 3rd party API while allowing a user to search for their
+        favorite cryptocurrency.
       </p>
       <div className="p3Buttons">
         <Stack direction="row" spacing={2}>

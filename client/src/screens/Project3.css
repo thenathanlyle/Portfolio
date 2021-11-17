@@ -11,11 +11,21 @@
 
 .cryptoimage {
   width: 20vw;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
 }
 
 .p3Title {
   margin: 0px;
-  font-size: 80px;
+  font-size: 75px;
+  font-family: "Cabin", sans-serif;
+  color: #3687d1;
+}
+
+span {
+  color: #000000;
 }
 
 .p3Body {
