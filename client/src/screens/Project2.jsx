@@ -24,28 +24,26 @@ export default function Project2() {
         environment and features full CRUD on products. JayWalkin offers the
         functionalities of filtering, searching, and sorting different products.
       </p>
-      <div className="p2Buttons">
-        <Stack direction="row" spacing={2}>
-          <Button
-            theme={theme}
-            color="primary"
-            variant="contained"
-            href="https://jaywalkin.netlify.app/"
-            target="_blank"
-          >
-            Visit Demo
-          </Button>
-          <Button
-            theme={theme}
-            color="secondary"
-            variant="outlined"
-            href="https://github.com/thenathanlyle/jay-walkin"
-            target="_blank"
-          >
-            GitHub
-          </Button>
-        </Stack>
-      </div>
+      <Stack direction="row" spacing={2} className="p2Buttons">
+        <Button
+          theme={theme}
+          color="primary"
+          variant="contained"
+          href="https://jaywalkin.netlify.app/"
+          target="_blank"
+        >
+          Visit Demo
+        </Button>
+        <Button
+          theme={theme}
+          color="secondary"
+          variant="outlined"
+          href="https://github.com/thenathanlyle/jay-walkin"
+          target="_blank"
+        >
+          GitHub
+        </Button>
+      </Stack>
     </div>
   );
 }

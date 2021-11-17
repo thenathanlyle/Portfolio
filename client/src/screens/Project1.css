@@ -30,7 +30,12 @@
 }
 
 .p1Buttons {
-  margin: 50px;
+  margin: 40px;
+}
+
+.test {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 768px) {
