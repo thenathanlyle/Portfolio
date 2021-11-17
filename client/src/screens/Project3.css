@@ -8,7 +8,8 @@
 }
 
 .p3Image {
-  width: 20vw;
+  width: 25vw;
+  max-width: 650px;
   -webkit-user-drag: none;
   -khtml-user-drag: none;
   -moz-user-drag: none;
@@ -29,6 +30,8 @@ span {
   margin: 0px;
   font-family: "Rubik", sans-serif;
   font-weight: 400;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .p3Buttons {
@@ -41,7 +44,7 @@ span {
   }
 
   .p3Body {
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
