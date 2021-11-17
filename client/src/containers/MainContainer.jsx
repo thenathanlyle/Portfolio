@@ -8,8 +8,8 @@ export default function MainContainer() {
     <div>
       <Home />
       <Project1 />
-      <Project2 />
       <Project3 />
+      <Project2 />
     </div>
   );
 }
