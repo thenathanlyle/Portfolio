@@ -9,7 +9,7 @@ export default function Footer() {
   const theme = createTheme({
     palette: {
       primary: {
-        main: "#007bff",
+        main: "#000000",
       },
     },
   });

@@ -20,9 +20,8 @@ export default function Project1() {
       <img className="motionImage" src={MotionGIFs} alt="" />
       <h1 className="p1Title">MotionGIFs</h1>
       <p className="p1Body">
-        CryptoCradle is a cryptocurrency price chart using coin data from an
-        external API while allowing a user to search for their favorite
-        cryptocurrency.
+        MotionGIFs is full-stack app built with full CRUD on both posts and
+        comments, with user authentication and authorization.
       </p>
       <div className="p1Buttons">
         <Stack direction="row" spacing={2}>
