@@ -7,7 +7,7 @@
   background-color: #fbfbff;
 }
 
-.cryptoimage {
+.p3Image {
   width: 20vw;
   -webkit-user-drag: none;
   -khtml-user-drag: none;
@@ -18,7 +18,6 @@
 .p3Title {
   margin: 0px;
   font-size: 40px;
-  font-family: "Cabin", sans-serif;
   color: #3687d1;
 }
 
@@ -34,4 +33,15 @@ span {
 
 .p3Buttons {
   margin: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .p3Image {
+    width: 70vw;
+  }
+
+  .p3Body {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }

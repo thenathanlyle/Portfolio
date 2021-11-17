@@ -17,7 +17,7 @@ export default function Project1() {
   });
   return (
     <div className="project1">
-      <img className="motionImage" src={MotionGIFs} alt="" />
+      <img className="p1Image" src={MotionGIFs} alt="" />
       <h1 className="p1Title">MotionGIFs</h1>
       <p className="p1Body">
         MotionGIFs is full-stack app built with full CRUD on both posts and

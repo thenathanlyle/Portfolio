@@ -17,7 +17,7 @@ export default function Project3() {
   });
   return (
     <div className="project3">
-      <img className="cryptoimage" src={CryptoCradle} alt="" />
+      <img className="p3Image" src={CryptoCradle} alt="" />
       <h1 className="p3Title">
         crypto<span>cradle</span>
       </h1>

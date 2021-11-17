@@ -17,7 +17,7 @@ export default function Project2() {
   });
   return (
     <div className="project2">
-      <img className="jayimage" src={JayWalkin} alt="" />
+      <img className="p2Image" src={JayWalkin} alt="" />
       <h1 className="p2Title">JayWalkin</h1>
       <p className="p2Body">
         JayWalkin is an E-commerce site built to allow users to browse through a
