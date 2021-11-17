@@ -1,5 +1,5 @@
-# Portfolio
+# Overview
 
-Work In Progress
+This is my portfolio page. Still in the process of cleaning up and adding more info.
 
-Deployed Site: Coming Soon
+### Nathan Lyle Portfolio: [Deployed Site](https://nathanlyle.netlify.app/ "NathanLyle")
