@@ -26,6 +26,11 @@ span {
   color: #000000;
 }
 
+.p3ListA {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .p3Body {
   margin: 0px;
   font-family: "Rubik", sans-serif;

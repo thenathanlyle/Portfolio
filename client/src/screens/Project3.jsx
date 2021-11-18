@@ -2,6 +2,7 @@ import CryptoCradle from "../assets/CryptoCradle.png";
 import "./Project3.css";
 import { Button } from "@mui/material";
 import Stack from "@mui/material/Stack";
+import Chip from "@mui/material/Chip";
 import { createTheme } from "@mui/material/styles";
 
 export default function Project3() {
@@ -21,6 +22,13 @@ export default function Project3() {
       <h1 className="p3Title">
         crypto<span>cradle</span>
       </h1>
+      <Stack direction="row" spacing={1} className="p3ListA">
+        <Chip label="Made with:" />
+        <Chip label="HTML" variant="outlined" />
+        <Chip label="JS" variant="outlined" />
+        <Chip label="CSS" variant="outlined" />
+        <Chip label="Axios" variant="outlined" />
+      </Stack>
       <p className="p3Body">
         CryptoCradle is a cryptocurrency price chart using coin data from an
         external 3rd party API while allowing a user to search for their

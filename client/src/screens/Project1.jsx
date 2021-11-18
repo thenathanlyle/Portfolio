@@ -20,12 +20,18 @@ export default function Project1() {
     <div className="project1">
       <img className="p1Image" src={MotionGIFs} alt="" />
       <h1 className="p1Title">MotionGIFs</h1>
-      <Stack direction="row" spacing={1} className="test">
+      <Stack direction="row" spacing={1} className="p1ListA">
         <Chip label="Made with:" />
-        <Chip label="React" variant="outlined" />
-        <Chip label="Rails" variant="outlined" />
-        <Chip label="MUI" variant="outlined" />
+        <Chip label="React JS" variant="outlined" />
+        <Chip label="Ruby on Rails" variant="outlined" />
         <Chip label="Axios" variant="outlined" />
+      </Stack>
+      <Stack direction="row" spacing={1} className="p1ListB">
+        <Chip label="Bcrypt" variant="outlined" />
+        <Chip label="JWT" variant="outlined" />
+        <Chip label="MUI" variant="outlined" />
+        <Chip label="Heroku" variant="outlined" />
+        <Chip label="Netlify" variant="outlined" />
       </Stack>
       <p className="p1Body">
         MotionGIFs is full-stack app built with full CRUD on both posts and

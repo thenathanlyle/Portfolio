@@ -21,6 +21,16 @@
   font-size: 35px;
 }
 
+.p1ListA {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.p1ListB {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
 .p1Body {
   margin: 0px;
   font-family: "Rubik", sans-serif;
@@ -31,11 +41,6 @@
 
 .p1Buttons {
   margin: 40px;
-}
-
-.test {
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 768px) {
