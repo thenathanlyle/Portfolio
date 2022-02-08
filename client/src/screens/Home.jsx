@@ -37,7 +37,7 @@ export default function Home() {
             theme={theme}
             color="secondary"
             variant="outlined"
-            href="https://drive.google.com/file/d/1Bctk3Yb76otSqD_XbIZECYwkHEyi1zMc/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ScTqXTx_8CWAq59sb6dvDsQAeju5x8pO/view?usp=sharing"
             target="_blank"
           >
             Resume
